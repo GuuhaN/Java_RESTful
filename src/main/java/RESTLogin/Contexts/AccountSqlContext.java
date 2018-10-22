@@ -11,7 +11,7 @@ public class AccountSqlContext implements AccountContext {
 
     Connection connection;
     Statement stmt;
-    final String connectionUrl = "jdbc:sqlserver://mssql.fhict.local;Database=dbi387964;user=dbi387964;password=Floofloxke7;"; // Prefix jdbc is essential
+    final String connectionUrl = "jdbc:sqlserver://DATABASEURL;Database=DATABASE;user=USERNAME;password=PASSWORD;"; // Prefix jdbc is essential
 
     @Override
     public boolean createAccount(String username, String password) {
